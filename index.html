@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontroler nawyków</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="habit-input hidden">
+        <h1 class="habit-input__title">Pracuj nad swoimi nawykami</h1>
+        <form action="" class="habit-input__form">
+          <input
+            type="text"
+            class="habit-input__form form-input"
+            placeholder="Wpisz nawyk"
+            required
+          />
+          <input
+            type="submit"
+            class="habit-input__form form-submit"
+            value="Start!"
+          />
+        </form>
+      </div>
+      <div class="habit hidden">
+        <div class="habit__description">
+          <p class="habit__text">Nawyk nad, którym pracujesz:</p>
+          <h2 class="habit__name"></h2>
+        </div>
+        <div class="habit__month-container">
+          <div class="habit__buttons">
+            <button data-direction="prev" class="habit__btn">Poprzedni</button>
+            <button data-direction="next" class="habit__btn">Nastepny</button>
+          </div>
+          <div class="habit__display">
+            <div class="habit__month"></div>
+            <div class="habit__success"></div>
+          </div>
+          <ul class="habit__days-container"></ul>
+        </div>
+        <button class="delete-button">Usuń nawyk</button>
+      </div>
+    </div>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
