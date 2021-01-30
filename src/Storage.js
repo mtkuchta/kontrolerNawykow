@@ -13,6 +13,6 @@ export class Storage {
     this.storage.setItem(this.STORAGE_KEY, JSON.stringify(value));
   }
   clearData() {
-    this.storage.clear();
+    this.storage.removeItem(this.STORAGE_KEY);
   }
 }
