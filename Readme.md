@@ -5,11 +5,11 @@
 Habit Controller is a calendar where you can mark your progress in habbit you are working on. To start
 tracking you progress just enter the habbit you want to work on:
 
-[Habbit Controller start](./img/kontroler_nawyków_start.jpg)
+[Habbit Controller start](./img/kontroler_nawyków_start.JPG)
 
 Then you check day if you succeed :
 
-[Habbit Controller main view](./img/kontroler_nawykow_main.jpg)
+[Habbit Controller main view](./img/kontroler_nawykow_main.JPG)
 
 The data is stored in LocalStorage.
 
